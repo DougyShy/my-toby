@@ -9,7 +9,7 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "start": "serve -s dist",
-    "heroku-postbuild": "npm run build"
+    "heroku-postbuild": "node server/server.js"
   },
   "dependencies": {
     "express": "^4.21.2",
